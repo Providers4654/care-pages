@@ -1,0 +1,71 @@
+/* ============================= */
+/* GLOBAL CARE PAGE SYSTEM       */
+/* Repo: care-page.css           */
+/* ============================= */
+#care-root .care-page{font-family:'Helvetica Neue',sans-serif;color:#2e2e2e;width:100%;max-width:100%;margin:0 auto;box-sizing:border-box;}
+#care-root .care-page *{box-sizing:border-box;}
+
+/* ============================= */
+/* GLOBAL SECTION TITLES         */
+/* ============================= */
+#care-root .care-page section>h2{font-size:28px;font-weight:700;color:#bd243f;text-transform:uppercase;text-align:center;margin:0 0 14px;}
+#care-root .care-page section>h2:after{content:"";display:block;width:60px;height:4px;background:#bd243f;margin:14px auto 40px;border-radius:2px;}
+
+/* ============================= */
+/* HERO TITLE BLOCK              */
+/* ============================= */
+#care-root .care-hero-title{display:flex;justify-content:center;align-items:center;padding:48px 20px;}
+#care-root .care-hero-title h1{color:#fff;font-size:42px;font-weight:500;text-align:center;margin:0;padding:20px 42px;background:rgba(0,0,0,.45);border-radius:20px;backdrop-filter:blur(1px);}
+@media(max-width:600px){#care-root .care-hero-title h1{font-size:28px;padding:18px 20px;}}
+
+/* ============================= */
+/* INTRO + CTA SECTION           */
+/* ============================= */
+#care-root .care-intro{text-align:center;padding:20px 20px 60px;max-width:720px;margin:0 auto;}
+#care-root .care-intro p{font-size:17px;color:#444;line-height:1.65;max-width:580px;margin:0 auto 40px;}
+
+/* ============================= */
+/* CTA BUTTONS                   */
+/* ============================= */
+#care-root .care-buttons{display:flex;flex-wrap:wrap;justify-content:center;gap:18px;}
+#care-root .care-buttons a{text-decoration:none;font-size:17px;font-weight:500;padding:16px 24px;border-radius:12px;transition:.25s ease;flex:1 1 260px;max-width:320px;text-align:center;}
+#care-root .care-btn-primary{background:#bd243f;color:#fff;}
+#care-root .care-btn-primary:hover{background:#a82036;}
+#care-root .care-btn-secondary{border:2px solid #bd243f;color:#bd243f;}
+#care-root .care-btn-secondary:hover{background:#fbeaed;}
+
+/* ============================= */
+/* BENEFITS GRID                 */
+/* ============================= */
+#care-root .care-benefits{padding:10px 20px 70px;max-width:900px;margin:0 auto;}
+#care-root .care-benefits-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:20px;}
+#care-root .care-benefit-card{background:#fff;border:1.5px solid #eee;border-radius:16px;padding:20px 14px;text-align:center;box-shadow:0 2px 6px rgba(0,0,0,.04);transition:.25s ease;}
+#care-root .care-benefit-card:hover{transform:translateY(-4px);box-shadow:0 10px 18px rgba(0,0,0,.08);}
+#care-root .care-benefit-icon{border:2px solid #bd243f;border-radius:50%;width:52px;height:52px;margin:0 auto 12px;display:flex;align-items:center;justify-content:center;}
+#care-root .care-benefit-icon img{width:24px;height:24px;}
+#care-root .care-benefit-card p{margin:0;font-size:14.5px;font-weight:500;color:#222;line-height:1.4;}
+
+/* ============================= */
+/* FULLBLEED OVERLAY SECTION     */
+/* ============================= */
+#care-root .care-overlay{width:100vw;margin-left:calc(-50vw + 50%);background:center top/cover no-repeat;min-height:620px;display:flex;align-items:center;justify-content:center;padding:70px 20px;}
+#care-root .care-overlay-box{background:rgba(0,0,0,.58);color:#fff;border-radius:20px;padding:44px 34px;max-width:720px;text-align:center;}
+#care-root .care-overlay-box h2{color:#fff;font-size:30px;margin-bottom:18px;font-weight:600;}
+#care-root .care-overlay-box p{font-size:17px;line-height:1.6;margin:0;}
+@media(max-width:768px){#care-root .care-overlay{min-height:520px;padding:50px 16px;}#care-root .care-overlay-box{padding:26px 18px;max-width:92%;}#care-root .care-overlay-box h2{font-size:24px;}#care-root .care-overlay-box p{font-size:14.5px;}}
+
+/* ============================= */
+/* FAQ SECTION                   */
+/* ============================= */
+#care-root .care-faq{max-width:900px;margin:80px auto;padding:0 20px;}
+#care-root .care-faq-item{background:#f9f9f9;border-radius:16px;padding:20px 24px;margin-bottom:18px;box-shadow:0 4px 14px rgba(0,0,0,.06);}
+#care-root .care-faq-item h4{margin:0 0 10px;color:#bd243f;font-size:18px;}
+#care-root .care-faq-item p{margin:0;font-size:15px;color:#444;line-height:1.65;}
+
+/* ============================= */
+/* FINAL BOTTOM CTA BLOCK        */
+/* ============================= */
+#care-root .care-bottom-cta{background:#f7f7f7;padding:44px 30px;border-radius:16px;max-width:720px;margin:70px auto;text-align:center;box-shadow:0 4px 14px rgba(0,0,0,.06);}
+#care-root .care-bottom-cta p{font-size:16px;line-height:1.6;color:#444;max-width:520px;margin:0 auto 22px;}
+#care-root .care-bottom-cta a{display:block;background:#bd243f;color:#fff;padding:14px;font-size:16px;font-weight:600;border-radius:10px;text-decoration:none;transition:.3s ease;}
+#care-root .care-bottom-cta a:hover{background:#a61e37;}
