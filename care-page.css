@@ -62,6 +62,18 @@
 #care-root .care-faq-item h4{margin:0 0 10px;color:#bd243f;font-size:18px;}
 #care-root .care-faq-item p{margin:0;font-size:15px;color:#444;line-height:1.65;}
 
+
+/* ============================= */
+/* FAQ ACCORDION BEHAVIOR        */
+/* ============================= */
+#care-root .care-faq-question{font-size:16px;font-weight:600;color:#bd243f;cursor:pointer;position:relative;padding-right:24px;}
+#care-root .care-faq-question:after{content:'+';position:absolute;right:0;top:0;}
+#care-root .care-faq-question.open:after{content:'–';}
+#care-root .care-faq-answer{font-size:14.5px;color:#444;line-height:1.6;margin-top:12px;display:none;}
+#care-root .care-faq-answer.open{display:block;}
+
+
+
 /* ============================= */
 /* FINAL BOTTOM CTA BLOCK        */
 /* ============================= */
